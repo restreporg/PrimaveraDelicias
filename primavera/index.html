@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <titulo>Primavera Delicias</titulo>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="contenedor__header">
+        <nav>
+          <div class="contenedor__logo">
+            <img
+              src="/PrimaveraDelicias/primavera/img/gemini-svg.svg"
+              alt="logo"
+            />
+            <span>Primavera | Delicias</span>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li class="navbar__link"><a href="#inicio">Inicio</a></li>
+              <li class="navbar__link"><a href="#menu">Menu</a></li>
+              <li class="navbar__link"><a href="#acerca">Acerca</a></li>
+              <li class="navbar__link">
+                <a href="#experiencias">Experiencias</a>
+              </li>
+              <li class="navbar__link"><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <a href="#pricing" class="navbar__reserva">
+            Reservar mesa
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#" class="navbar__bars">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="inicio__banner">
+        <h2 class="inicio__titulo">
+          Sabores culinarios no vistos en ningún lugar
+        </h2>
+        <p class="inicio__descripcion">
+          Los mejores cocineros del área metropolitana
+        </p>
+        <a href="#menu" class="inicio__menu">Ver Menu</a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN ACERCA -->
+    <section id="acerca" class="acerca">
+      <div class="acerca__titulo">
+        <h2>Acerca de nuestro servicio</h2>
+        <div class="acerca-linea__separadora"></div>
+      </div>
+
+      <div class="acerca__contenedor">
+        <div class="acerca__contenido">
+         <img src="/PrimaveraDelicias/primavera/img/pexels-marioschafer-11322616.jpg" width="300px" alt="nosotros" />
+         <div class="acerca__imagen-fondo"></div>
+       </div>
+
+       <div class="acerca__equipo">
+         <h2 class="acerca__equipo-titulo">Los cocineros más valorados del área</h2>
+         <p class="acerca__text">
+          Somos un grupo de mentes inquietas y amantes del buen comer. Creemos
+          que la cocina debe ser divertida, auténtica y transparente. Por eso,
+          en nuestro equipo encontrarás caras sonrientes que aman lo que hacen,
+          desde el chef que selecciona personalmente los ingredientes cada
+          mañana, hasta el equipo que te recomienda el maridaje perfecto. No
+          solo servimos comida, creamos momentos.
+         </p>
+       </div>
+      </div>
+
+      <div class="acerca__cards">
+        <div class="card__cocineros">
+          <div class="card-cocineros__icono">
+            <i class="fa-solid fa-kitchen-set"></i>
+          </div>
+          <h2 class="card-cocineros__titulo">Nuestras manos</h2>
+          <p>
+            Expertos en el manejo del producto y el fuego. La precisión y la
+            disciplina definen a nuestro equipo de cocina, dedicado a
+            perfeccionar cada receta para garantizar la excelencia en su mesa.
+          </p>
+        </div>
+
+        <div class="card__platos">
+          <div class="card-platos__icono">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <h2 class="card-platos__titulo">Sabores</h2>
+          <p>
+            Del campo a su mesa. Platos creados con respeto absoluto por la
+            materia prima, manteniendo la esencia de los sabores auténticos a
+            través de técnicas artesanales y una presentación impecable.
+          </p>
+        </div>
+
+        <div class="card__atencion">
+          <div class="card-atencion__icono">
+            <i class="fa-solid fa-bell-concierge"></i>
+          </div>
+          <h2 class="card-atencion__titulo">Atención</h2>
+          <p>
+            La excelencia en el servicio es nuestra prioridad. Nuestro equipo de
+            sala está dedicado a anticiparse a sus necesidades con discreción y
+            profesionalismo, garantizando una experiencia fluida y de alto nivel
+            de principio a fin.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN MENÚ -->
+    <section id="menu" class="menu">
+      <div class="menu__titulo">
+        <div class="menu__icono">
+          <i class="fa-solid fa-burger"></i>
+        </div>
+        <h2>Dale un vistazo a Nuestro Menú</h2>
+        <div class="menu-linea__separadora"></div>
+      </div>
+
+      <div class="menu__cards">
+        <div class="menu-card menu-card--tacos">
+          <img
+            class="menu-card__imagen"
+            src="/PrimaveraDelicias/primavera/img/pexels-lucia-photography-in-progress-cano-318039738-31632714.jpg"
+            width="200px"
+            alt="Tacos"
+          />
+          <h2 class="menu-card__titulo">Tacos de birria</h2>
+          <p class="menu-card__descripcion">
+            Tacos dorados en tortilla de maíz bañada en consomé, rellenos de
+            carne deshebrada y queso fundido. Acompañados de consomé para
+            dipping, rábanos frescos y limón.
+          </p>
+          <div class="menu-card__arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="menu-card menu-card--sandwich">
+          <img
+            class="menu-card__imagen"
+            src="/PrimaveraDelicias/primavera/img/pexels-ionatelo-37218862.jpg"
+            width="200px"
+            alt="Sandwich"
+          />
+          <h2 class="menu-card__titulo">Sandwich Panini</h2>
+          <p class="menu-card__descripcion">
+            Panini tostado relleno de jamón y queso gratinado, servido con
+            ensalada fresca de lechuga, tomates cherry, aceitunas verdes y queso
+            rallado.
+          </p>
+          <div class="menu-card__arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="menu-card menu-card--pechuga">
+          <img
+            class="menu-card__imagen"
+            src="/PrimaveraDelicias/primavera/img/pexels-bgcortez-35437136.jpg"
+            width="200px"
+            alt="Pechuga"
+          />
+          <h2 class="menu-card__titulo">Pechuga con Salsa de Frutos Rojos</h2>
+          <p class="menu-card__descripcion">
+            Pechuga a la plancha bañada en salsa de mora y frutos rojos con
+            queso parmesano rallado. Acompañada de papas fritas en cestilla y
+            bowl de vegetales salteados. Maridada con cóctel de frutos rojos.
+          </p>
+          <div class="menu-card__arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="menu-card menu-card--bandeja">
+          <img
+            class="menu-card__imagen"
+            src="/PrimaveraDelicias/primavera/img/pexels-bgcortez-35437142.jpg"
+            width="200px"
+            alt="Bandeja"
+          />
+          <h2 class="menu-card__titulo">Bandeja a la Piedra</h2>
+          <p class="menu-card__descripcion">
+            Carne a la piedra sobre base de hogao, coronada con huevo frito.
+            Servida con papa asada en papel aluminio y chimichurri al lado.
+          </p>
+          <div class="menu-card__arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN TESTIMONIOS -->
+    <section id="experiencias" class="testimonios">
+      <div class="testimonios__titulo">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonios-linea__separadora"></div>
+      </div>
+
+      <div class="testimonios__grid">
+        <div class="testimonio-card">
+          <div class="testimonio-card__estrellas">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonio-card__comentario">
+            "La mejor experiencia gastronómica que he tenido en el área. Los
+            tacos de birria son simplemente espectaculares, el consomé tiene una
+            profundidad de sabor increíble."
+          </p>
+          <div class="testimonio-card__autor">
+            <img
+              class="testimonio-card__avatar"
+              src="/PrimaveraDelicias/primavera/img/pexels-rubn-nava-2159941974-37218450.jpg"
+              alt="Jose Juan"
+            />
+            <div class="testimonio-card__info">
+              <span class="testimonio-card__nombre">Jose Juan</span>
+              <span class="testimonio-card__cargo">Chef independiente</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonio-card testimonio-card--destacado">
+          <div class="testimonio-card__estrellas">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonio-card__comentario">
+            "Vine con mi familia a celebrar un cumpleaños y el servicio fue
+            impecable. La bandeja a la piedra llegó perfectamente presentada y
+            el sabor superó todas mis expectativas."
+          </p>
+          <div class="testimonio-card__autor">
+            <img
+              class="testimonio-card__avatar"
+              src="/PrimaveraDelicias/primavera/img/pexels-mateus-beber-834942268-34555726.jpg"
+              alt="Carlos Rodríguez"
+            />
+            <div class="testimonio-card__info">
+              <span class="testimonio-card__nombre">Carlos Rodríguez</span>
+              <span class="testimonio-card__cargo">Empresario</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonio-card">
+          <div class="testimonio-card__estrellas">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="testimonio-card__comentario">
+            "La pechuga con salsa de frutos rojos es un plato que no olvidaré.
+            La combinación de sabores es audaz y muy bien ejecutada. Sin duda
+            regresaré pronto."
+          </p>
+          <div class="testimonio-card__autor">
+            <img
+              class="testimonio-card__avatar"
+              src="/PrimaveraDelicias/primavera/img/pexels-luisbecerrafotografo-5906261.jpg"
+              alt="Andres Alicante"
+            />
+            <div class="testimonio-card__info">
+              <span class="testimonio-card__nombre">Andres Alicante</span>
+              <span class="testimonio-card__cargo">Foodie & Blogger</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN PRICING -->
+    <section class="pricing" id="pricing">
+      <div class="pricing__header">
+        <p class="pricing__titulo">Planes</p>
+        <h2 class="pricing__heading">Una experiencia para cada ocasión</h2>
+      </div>
+
+      <div class="pricing__grid">
+        <div class="pricing__card">
+          <p class="pricing__plan">Menú del Día</p>
+          <div class="pricing__price">
+            <span class="pricing__simbolo">$</span>
+            <span class="pricing__costo">18.000</span>
+            <span class="pricing__cantidad">/persona</span>
+          </div>
+
+          <div class="pricing__divider"></div>
+          <ul class="pricing__caracteristicas">
+            <li class="pricing__item">Sopa o entrada del día</li>
+            <li class="pricing__item">
+              Plato principal (3 opciones rotativas)
+            </li>
+            <li class="pricing__item">
+              Bebida incluida (jugo natural o limonada)
+            </li>
+            <li class="pricing__item">Pan o arepa acompañante</li>
+            <li class="pricing__item">Postre del día</li>
+          </ul>
+          <button class="pricing__btn pricing__btn--outline">
+            Reservar mesa
+          </button>
+        </div>
+
+        <div class="pricing__card pricing__card--recomendado">
+          <span class="pricing__categoria">Recomendado</span>
+          <p class="pricing__plan">Combo Especial</p>
+          <div class="pricing__price">
+            <span class="pricing__simbolo">$</span>
+            <span class="pricing__costo">35.000</span>
+            <span class="pricing__cantidad">/persona</span>
+          </div>
+          <div class="pricing__divider"></div>
+          <ul class="pricing__caracteristicas">
+            <li class="pricing__item">Entrada a elección (ensalada o sopa)</li>
+            <li class="pricing__item">
+              Plato principal premium (birria, pechuga o bandeja)
+            </li>
+            <li class="pricing__item">Bebida artesanal o cóctel de la casa</li>
+            <li class="pricing__item">Postre incluido</li>
+            <li class="pricing__item">Segundo jugo o agua incluida</li>
+            <li class="pricing__item">Servicio prioritario en mesa</li>
+          </ul>
+          <button class="pricing__btn pricing__btn--solid">Pedir ahora</button>
+        </div>
+
+
+        <div class="pricing__card">
+          <p class="pricing__plan">Paquete Grupal</p>
+          <div class="pricing__price">
+            <span class="pricing__simbolo">$</span>
+            <span class="pricing__costo">110.000</span>
+            <span class="pricing__cantidad">/mesa x4</span>
+          </div>
+          <div class="pricing__divider"></div>
+          <ul class="pricing__caracteristicas">
+            <li class="pricing__item">Mesa para 4 personas</li>
+            <li class="pricing__item">4 platos principales a elección</li>
+            <li class="pricing__item">4 bebidas incluidas</li>
+            <li class="pricing__item">Tabla de entradas para compartir</li>
+            <li class="pricing__item">Postre grupal</li>
+            <li class="pricing__item">
+              Reserva garantizada y atención personalizada
+            </li>
+          </ul>
+          <button class="pricing__btn pricing__btn--outline">
+            Reservar grupo
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+<section class="contact" id="contacto">
+  <div class="contact__inner">
+    <div class="contact__header">
+      <p class="contact__label-titulo">Contacto</p>
+      <h2 class="contact__titulo">¿Listo para reservar tu mesa?</h2>
+    </div>
+    <form class="contact__form" id="contacto" novalidate>
+ 
+      <div class="contact__te">
+        <label class="contact__label" for="name">Nombre completo</label>
+        <input
+          class="contact__input"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Tu nombre"
+          required
+        />
+        <span class="contact__error" id="nameError">Por favor ingresa tu nombre.</span>
+      </div>
+ 
+      <div class="contact__te">
+        <label class="contact__label" for="email">Correo electrónico</label>
+        <input
+          class="contact__input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tu@correo.com"
+          required
+        />
+        <span class="contact__error" id="emailError">Por favor ingresa un correo válido.</span>
+      </div>
+ 
+      <div class="contact__te">
+        <label class="contact__label" for="personas">Número de personas</label>
+        <input
+          class="contact__input"
+          type="number"
+          id="personas"
+          name="personas"
+          placeholder="¿Cuántos serán?"
+          min="1"
+          required
+        />
+        <span class="contact__error" id="personasError">Por favor indica el número de personas.</span>
+      </div>
+ 
+      <div class="contact__te">
+        <label class="contact__label" for="fecha">Fecha y hora preferida</label>
+        <input
+          class="contact__input"
+          type="datetime-local"
+          id="fecha"
+          name="fecha"
+          required
+        />
+        <span class="contact__error" id="fechaError">Por favor selecciona una fecha y hora.</span>
+      </div>
+ 
+      <div class="contact__te">
+        <label class="contact__label" for="message">Mensaje o solicitud especial</label>
+        <textarea
+          class="contact__textarea"
+          id="message"
+          name="message"
+          placeholder="Alergias, celebraciones, preferencias de mesa..."
+        ></textarea>
+      </div>
+ 
+      <button type="submit" class="contact__submit">Reservar mesa →</button>
+ 
+    </form>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__top">
+ 
+    <div class="footer__marcas">
+      <p class="footer__logo">Primavera | Delicias</p>
+      <p class="footer__tag">Sabores culinarios no vistos<br>en ningún lugar.</p>
+      <div class="footer__marcas">
+        <a href="#" class="footer__marcas-icon" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#" class="footer__marcas-icon" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#" class="footer__marcas-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" class="footer__marcas-icon" aria-label="WhatsApp"><i class="fa-brands fa-square-whatsapp"></i></a>
+      </div>
+    </div>
+ 
+    <div class="footer__col">
+      <p class="footer__col-titulo">Navegación</p>
+      <ul class="footer__list">
+        <li><a href="#inicio" class="footer__link">Inicio</a></li>
+        <li><a href="#menu" class="footer__link">Menú</a></li>
+        <li><a href="#acerca" class="footer__link">Acerca</a></li>
+        <li><a href="#experiencias" class="footer__link">Experiencias</a></li>
+      </ul>
+    </div>
+ 
+    <div class="footer__col">
+      <p class="footer__col-titulo">Planes</p>
+      <ul class="footer__list">
+        <li><a href="#pricing" class="footer__link">Menú del Día</a></li>
+        <li><a href="#pricing" class="footer__link">Combo Especial</a></li>
+        <li><a href="#pricing" class="footer__link">Paquete Grupal</a></li>
+        <li><a href="#contacto" class="footer__link">Reservar mesa</a></li>
+      </ul>
+    </div>
+ 
+    <div class="footer__col">
+      <p class="footer__col-titulo">Visítanos</p>
+      <ul class="footer__list">
+        <li><a href="#" class="footer__link">Calle 123 # 45-67, Envigado</a></li>
+        <li><a href="tel:+573001234567" class="footer__link">+57 300 123 4567</a></li>
+        <li><a href="mailto:hola@primaveradlicias.com" class="footer__link">hola@primaveradlicias.com</a></li>
+        <li><a href="#" class="footer__link">Lun-Dom: 11am - 10pm</a></li>
+      </ul>
+    </div>
+ 
+  </div>
+ 
+  <div class="footer__bottom">
+    <p class="footer__copy">
+      <div class="footer-copy__logo">
+        <i class="fa-regular fa-copyright"></i>
+      </div>
+       2025 Primavera Delicias. Todos los derechos reservados.</p>
+    <nav class="footer__legal">
+      <a href="#" class="footer__legal-link">Privacidad</a>
+      <a href="#" class="footer__legal-link">Términos</a>
+      <a href="#" class="footer__legal-link">Cookies</a>
+    </nav>
+  </div>
+</footer>
+
+
+  </body>
+</html>
