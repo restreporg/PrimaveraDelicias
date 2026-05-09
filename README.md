@@ -1,8 +1,8 @@
-# PrimaveraDelicias 
+PrimaveraDelicias 
 
-# Decisiones de diseño BEM — Primavera Delicias
+Decisiones de diseño BEM — Primavera Delicias
 
-## Decisiones por sección
+Decisiones por sección
 
 1. Header y navegación
 
